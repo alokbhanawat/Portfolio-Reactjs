@@ -27,9 +27,16 @@ const Home = () => {
         <h1 className='text-3xl md:text-6xl font-bold flex leading-normal tracking-tighter'>
           <TextChange />
         </h1>
-        <h2>Full Stack Developer</h2>
+        <h2 className='text-lg md:text-3xl font-semibold text-[#8b9ddb] mb-2'>
+          Software Engineer | Java Developer
+        </h2>
         <p className='text-sm md:text-2xl tracking-tight'>
-          Passionate FullStack Developer with expertise in HTML, CSS, JavaScript, and React. Strong understanding of Node.js, MongoDB, and PostgreSQL. Skilled in creating responsive, dynamic web apps. Detail-oriented and thrives in collaborative, fast-paced environments.
+          Software Engineer with strong expertise in Java, Spring Boot, and RESTful API development. 
+          Experienced in building scalable, secure, and high-performance backend systems using 
+          Hibernate/JPA, MySQL, and PostgreSQL. Solid foundation in object-oriented programming, 
+          data structures, algorithms, and microservices architecture. Also skilled in React, 
+          JavaScript, HTML, and CSS for building responsive user interfaces. Detail-oriented, 
+          and thrives in collaborative, fast-paced environments.
         </p>
         {/* Contact Me Button */}
         <button

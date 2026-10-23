@@ -38,6 +38,35 @@ const About = () => {
                 </p>
               </span>
             </div>
+
+            {/* NEW: Java Technologies */}
+            <div className="flex gap-3 py-4">
+              <IoArrowForward size={30} className="mt-1" />
+
+              <span className="w-96">
+                <h1 className="text-xl md:text-2xl font-semibold leading-normal">
+                  Java Technologies
+                </h1>
+                <p className="text-sm md:text-md leading-tight">
+                Core Java, Spring, Spring Boot, Hibernate/JPA, Microservices, RESTful APIs
+                </p>
+              </span>
+            </div>
+
+            {/* NEW: Testing & Automation */}
+            <div className="flex gap-3 py-4">
+              <IoArrowForward size={30} className="mt-1" />
+
+              <span className="w-96">
+                <h1 className="text-xl md:text-2xl font-semibold leading-normal">
+                  Testing & Automation
+                </h1>
+                <p className="text-sm md:text-md leading-tight">
+                Selenium, Manual Testing, JMeter, Jenkins
+                </p>
+              </span>
+            </div>
+
             <div className="flex gap-3 py-4">
               <IoArrowForward size={30} className="mt-1" />
 

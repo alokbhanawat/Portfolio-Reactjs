@@ -1,5 +1,5 @@
 import React from 'react';
-import ResumeFile from '../../assets/AlokBhanawatResume1.pdf'; // Path to your resume PDF file
+import ResumeFile from '../../assets/AlokBhanawatSDEng.pdf'; // Path to your resume PDF file
 
 const Resume = () => {
   return (
@@ -9,7 +9,7 @@ const Resume = () => {
         <p className="text-sm sm:text-base text-blue-200 mb-4">Click the button below to download my resume.</p>
         <a 
           href={ResumeFile} 
-          download="Alok_Bhanawat_Resume.pdf" 
+          download="AlokBhanawatSDEng.pdf" 
           className="px-4 py-2 bg-[#171d82] text-white rounded-lg hover:bg-black transition duration-300"
         >
           Download Resume

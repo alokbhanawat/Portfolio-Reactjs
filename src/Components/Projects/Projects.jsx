@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 // Add icon imports for each project
 import { FaShoppingCart } from "react-icons/fa";  // Fashion
 import { IoBookSharp } from "react-icons/io5";    // EduMind
-import { MdTour } from "react-icons/md";          // Hidden Tour
+import { MdTour, MdDevices } from "react-icons/md"; // Hidden Tour, Infi Electronics
 
 const Projects = () => {
   return (
@@ -28,6 +28,12 @@ const Projects = () => {
           main="This is a Tour and Cab Planning Web Application for Planning Vacation and Booking Cabs"
           sourceLink="https://www.hiddenindiatours.com/car-rental/"
           icon={<MdTour size={50} />} // Passing icon as prop
+        />
+        <ProjectCard
+          title="Infi Electronics"
+          main="Worked on Infi Electronics, an E-commerce application for buying and selling electronic products with product listings, cart and order management."
+          sourceLink="" // Add link later
+          icon={<MdDevices size={50} />} // Passing icon as prop
         />
       </div>
     </div>
