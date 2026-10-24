@@ -1,18 +1,34 @@
 import React from 'react';
-import ResumeFile from '../../assets/AlokBhanawatSDEng.pdf'; // Path to your resume PDF file
+// import ResumeFile from '../../assets/AlokBhanawatSDEng.pdf'; // Path to your resume PDF file
 
 const Resume = () => {
   return (
     <div className="bg-[#171d32] py-2 my-10">
       <div className="text-center px-4 sm:px-6 lg:px-8">
-        <h1 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-white mb-2">Download My Resume</h1>
-        <p className="text-sm sm:text-base text-blue-200 mb-4">Click the button below to download my resume.</p>
+        <h1 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-white mb-2">
+          {/* Download My Resume */}
+          Want My Resume?
+        </h1>
+        <p className="text-sm sm:text-base text-blue-200 mb-4">
+          {/* Click the button below to download my resume. */}
+          Ping me on mail and I'll send it over.
+        </p>
+
+        {/* Original download button
         <a 
           href={ResumeFile} 
           download="AlokBhanawatSDEng.pdf" 
           className="px-4 py-2 bg-[#171d82] text-white rounded-lg hover:bg-black transition duration-300"
         >
           Download Resume
+        </a>
+        */}
+
+        <a 
+          href="mailto:alokbhanawat@gmail.com?subject=Resume Request"
+          className="px-4 py-2 bg-[#171d82] text-white rounded-lg hover:bg-black transition duration-300"
+        >
+          Ping Me on Mail
         </a>
       </div>
     </div>
